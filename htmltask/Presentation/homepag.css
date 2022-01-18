@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap");
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Kufam", sans-serif;
+  /* background-color: rgba(67, 74, 85, 0.411); */
+  background-image: linear-gradient(
+      90deg,
+      rgba(51, 78, 104, 0.2) 0%,
+      rgba(20, 63, 92, 0.8) 20%
+    ),
+    url("picture/img.jpg");
+}
+
+#picture {
+  background-color: #98a6b4;
+  width: 100%;
+  height: 14%;
+  max-width: 1366px;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  margin-bottom: 10px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#picture #University {
+  max-width: 20px;
+  height: 30px;
+  margin: 0 0;
+  padding: 0;
+  display: block;
+  justify-content: right;
+  align-items: baseline;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#picture #expert {
+  width: 40px;
+  height: 20px;
+  margin: 0 0;
+  padding: 0;
+  size: 30px;
+  display: flex;
+  justify-content: right;
+  align-items: baseline;
+  position: absolute;
+  top: 0;
+  left: 46%;
+  right: 54%;
+  transform: scaleY(1.5);
+}
+#picture #dualst {
+  width: 60px;
+  height: 25px;
+  margin: 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+  align-items: baseline;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#headtitle {
+  border: 0 solid rgb(11, 13, 14);
+  background-color: #aac6ca50;
+  width: 100%;
+  height: 20%;
+  margin: 0 0;
+  margin: 0;
+  padding: auto;
+  max-width: 1366px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#headtitle h2 {
+  font-size: 8px;
+}
+#headtitle p {
+  font-size: 7px;
+  color: rgb(71, 61, 61);
+}
+#headtitle h2 span {
+  color: rgb(43, 42, 42);
+}
+#practice1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#practice1 p {
+  font-size: 6px;
+}
+#practice1 p i {
+  font-family: "Lobster", cursive;
+}
+/* ################################################################################## */
+#outline h2 {
+  font-size: 7px;
+  padding-left: 28%;
+  color: brown;
+  background-color: #98a6b4;
+  border-radius: 0.5rem;
+  margin-top: 0;
+  padding-right: 55px;
+}
+#outline h2 i {
+  color: black;
+}
+/* ############################################## */
+#outline {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1366px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#outline-container1 {
+  border-radius: 5px;
+  margin-top: 0%;
+  padding-top: 0;
+  /* border: 0.5px solid black; */
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 2rem;
+  padding-top: 2px;
+}
+
+.out1 {
+  border-radius: 5px;
+  background-color: #bcccdc;
+  padding: 10px 0;
+  width: 30%;
+}
+.out1 p {
+  font-size: 8px;
+  text-align: center;
+  width: 60%;
+  margin: 1rem auto;
+  text-align: start;
+}
+.header-cont h3 a {
+  text-decoration: underline;
+  color: rgb(116, 104, 90);
+  margin-bottom: 0;
+}
+.header-cont h3 a:hover {
+  color: rgb(87, 82, 76);
+  font-size: 10px;
+}
+.header-cont {
+  display: flex;
+  margin-right: 1rem;
+  justify-content: center;
+}
+/* ############################################# */
+#outline-container2 {
+  border-radius: 5px;
+  margin-top: 0%;
+  padding-top: 0;
+  /* border: 0.5px solid black; */
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 2rem;
+  padding-top: 2px;
+}
+.out2 {
+  border-radius: 5px;
+
+  background-color: #bcccdc;
+  padding: 10px 0;
+  width: 30%;
+}
+.out2 p {
+  font-size: 8px;
+  text-align: center;
+  width: 60%;
+  margin: 1rem auto;
+  text-align: start;
+}
+.header-cont2 h3 a {
+  text-decoration: underline;
+  color: rgb(116, 104, 90);
+  margin-bottom: 0;
+}
+.header-cont2 h3 a:hover {
+  color: rgb(87, 82, 76);
+  font-size: 10px;
+}
+.header-cont2 h3 .header-cont2 {
+  display: flex;
+  margin-right: 1rem;
+  justify-content: center;
+}
+/* ################################################### */
+/* footer */
+#foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#foot #companies {
+  margin-top: 2px;
+  width: 100%;
+  height: 30px;
+  opacity: 0.4;
+}
+#foot p i span {
+  font-size: 10px;
+  opacity: 0.7;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#foot p i {
+  font-family: "Lobster", cursive;
+  color: red;
+  font-size: 11px;
+}

@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap");
+* {
+  margin: 0;
+}
+body {
+  font-family: "Kufam", sans-serif;
+  /* background-color: rgba(67, 74, 85, 0.411); */
+  background-image: linear-gradient(
+      90deg,
+      rgba(51, 78, 104, 0.2) 0%,
+      rgba(20, 63, 92, 0.8) 20%
+    ),
+    url("picture/back1.png");
+}
+
+#picture {
+  background-color: #44586b;
+  width: 100%;
+  height: 14%;
+  max-width: 1366px;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  margin-bottom: 5px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#picture #University {
+  max-width: 20px;
+  height: 30px;
+  margin: 0 0;
+  padding: 0;
+  display: block;
+  justify-content: right;
+  align-items: baseline;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#picture #expert {
+  width: 40px;
+  height: 20px;
+  margin: 0 0;
+  padding: 0;
+  size: 30px;
+  display: flex;
+  justify-content: right;
+  align-items: baseline;
+  position: absolute;
+  top: 0;
+  left: 46%;
+  right: 54%;
+  transform: scaleY(1.5);
+}
+#picture #dualst {
+  width: 60px;
+  height: 25px;
+  margin: 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+  align-items: baseline;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#headtitle {
+  border: 0.1px solid #486079;
+  background-color: #44586b;
+  width: 100%;
+  height: 20%;
+  margin: 0 0;
+  margin: 0;
+  padding: auto;
+  max-width: 1366px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#headtitle h2 {
+  font-size: 8px;
+}
+#headtitle p {
+  font-size: 7px;
+  color: rgb(71, 61, 61);
+}
+#headtitle h2 span {
+  color: rgb(43, 42, 42);
+}
+#practice1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#practice1 p {
+  font-size: 6px;
+}
+#practice1 p i {
+  font-family: "Lobster", cursive;
+}
+/* ############################################## */
+#buttons {
+  border-radius: 5px;
+  margin-top: 0%;
+  padding-top: 0;
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 8px;
+  /* padding-top: 2px; */
+}
+#buttons #butt {
+  border-radius: 5px;
+  font-size: 7px;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-right: 2px;
+  margin-left: 2px;
+  background-color: rgba(112, 150, 175, 0.8);
+}
+#buttons #butt a {
+  color: black;
+  text-decoration: none;
+}
+
+#buttons #butt a:hover {
+  color: rgb(85, 37, 37);
+  font-size: 8px;
+}
+/*############# end button #############*/
+#title {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3px;
+}
+#title #heder {
+  border-radius: 2rem;
+  font-size: 7px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  margin-left: 37px;
+  margin-bottom: 1px;
+  padding-left: 3px;
+  background-color: rgba(60, 76, 87, 0.8);
+}
+#title p {
+  font-family: "Luxurious Roman", cursive;
+  font-size: 6px;
+  background-color: rgb(197, 196, 196);
+  size: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: start;
+  border-radius: 3px;
+  padding: 2px;
+}
+/* ############end title################# */
+#cubes {
+  border-radius: 5px;
+  margin-top: 0%;
+  padding-top: 0;
+
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 2rem;
+  padding-top: 2px;
+}
+#cub #cub-head h3 {
+  font-size: 10px;
+  text-align: center;
+  background-color: rgba(92, 122, 141, 0.8);
+}
+#cub {
+  border-radius: 5px;
+  background-color: rgb(211, 209, 209);
+  padding: 10px 0;
+  width: 30%;
+}
+
+#cub p {
+  font-family: "Luxurious Roman", cursive;
+  font-size: 7px;
+  text-align: start;
+  color: #565656;
+  padding: 1px;
+}
+/* bottom vist */
+#vist {
+  border-radius: 2px;
+  background-color: rgba(92, 122, 141, 0.8);
+}
+#vist p {
+  font-size: 10px;
+  padding-left: 3px;
+}
+#vist p button {
+  border-radius: 2px;
+
+  font-size: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin-right: 2px;
+  margin-left: 2px;
+  background-color: rgba(92, 122, 141, 0.8);
+}
+#vist p button a {
+  color: rgb(85, 37, 37);
+}
+#vist p button a:hover {
+  color: rgb(85, 37, 37);
+  font-size: 11px;
+}
+
+/* ############################################# */
+#foot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#foot #companies {
+  margin-top: 2px;
+  width: 100%;
+  height: 20px;
+  opacity: 0.4;
+}
+#foot p i span {
+  font-size: 10px;
+  opacity: 0.7;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#foot p i {
+  font-family: "Lobster", cursive;
+  color: red;
+  font-size: 11px;
+}

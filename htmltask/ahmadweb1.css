@@ -1,0 +1,128 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    direction: rtl;
+}
+.cont{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;    
+}
+header{
+    background-color: #353637;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom:rgb(95, 60, 85) 5px solid;
+}
+header a{
+    color: white;
+    text-decoration:none;
+    font-size: 20px;
+}
+header li{
+    float: right;
+    display: inline;
+    padding: 0 20px;
+}
+header #brand h1{
+    margin: 0;
+    color: rgba(146, 75, 187, 0.712);
+    
+}
+header nav{
+    margin-top: 10px;
+}
+header .curnt a{
+    color: #32a0c2;
+    font-weight: bold;
+}
+header a:hover{
+    color: #a4d3d1;
+    font-weight: bold;
+}
+#addimage{
+    min-height: 300px;
+    background: url("img.png") no-repeat center  ;
+    background-size: cover;
+}
+#newsletter{
+    padding: 15px;
+    color: white;
+    background-color:#353637 ;
+}
+#newsletter h1{
+    float: right;
+    color: rgba(224, 177, 88, 0.507);
+}
+#newsletter form{
+    float: left;
+    margin-top: 20px;
+}
+newsletter input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+.button{
+    height: 40px;
+    background-color: rgb(228, 222, 210);
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #353637;
+
+}
+#boxes{
+    margin-top: 20px;
+
+}
+#boxes .box{
+    float:right;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    padding-top: 0;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: whitesmoke;
+    background-color: #32a0c3;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+@media(max-widht:768px){
+    header #brand,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header
+    {
+        padding-bottom: 20px;
+
+    }
+    #newsletter .button{
+        display:block ;
+        width: 100%;
+    }
+    #newsletter form input[type="email"]{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+
+}

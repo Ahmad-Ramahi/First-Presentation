@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400;0,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-family: "Kufam", sans-serif;
+  background-color: rgba(150, 144, 144, 0.411);
+}
+h1 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: wheat;
+}
+h3 {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: #d5d5d5;
+}
+p {
+  font-size: 1rem;
+  color: #05050567;
+  line-height: 2;
+}
+/* nav sesion */
+.nav-cont {
+  background-color: #334e68;
+  color: #f0f4f8;
+}
+nav {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1366px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  font-size: 1.6ram;
+}
+nav .logo {
+  font-weight: bold;
+  color: #f0f4f8;
+  flex: 2;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  flex: 1;
+}
+nav ul li a {
+  color: #f0f4f8;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: blue;
+  font-size: 1.7rem;
+}
+/* hero secion */
+.hero {
+  height: 90vh;
+  position: relative;
+}
+.hero::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: linear-gradient(
+      90deg,
+      rgba(51, 78, 104, 0.2) 0%,
+      rgba(20, 63, 92, 0.8) 20%
+    ),
+    url("img.jpg");
+}
+.contt {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1366px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 90vh;
+}
+h1 span,
+h3 span {
+  color: #27ab83;
+}
+.btn {
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0.75 3;
+  border-radius: 0.5rem;
+  border: 2.5px black;
+  outline: none;
+  background-color: #27ab83;
+}
+.btn a {
+  color: #243b53;
+  font-size: 16px;
+  text-decoration: none;
+}
+.btn a:hover {
+  background-color: aqua;
+}
+.btn a :active {
+  size: 0.98rem;
+}
+
+/* qualities secion */
+.qualities {
+  width: 90%;
+  margin: 5rem auto;
+  max-width: 1366px;
+  height: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.quality-container {
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 2rem;
+  padding-top: 5rem;
+}
+.quality {
+  background-color: #bcccdc;
+  padding: 4rem 0;
+  width: 30%;
+}
+.quality p {
+  text-align: center;
+  width: 60%;
+  margin: 1rem auto;
+}
+.quality h3 {
+  color: burlywood;
+  margin-bottom: 0;
+}
+.qualities h2 {
+  font-size: 3rem;
+}
+.header-cont {
+  display: flex;
+  margin-right: 1rem;
+  justify-content: center;
+}
+/* adout us secion */
+.about-container {
+  background-color: #334e68;
+}
+
+.about-us {
+  width: 90%;
+  max-width: 1366px;
+  margin: 0 auto;
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-content h2 {
+  color: #d9e2ec;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.about-content p {
+  margin-top: 1rem;
+  width: 80%;
+  color: #d5d5d5;
+}
+.about-us img {
+  width: 50%;
+  height: 100%;
+}
+/* cotact us secion */
+.cotact {
+  width: 90%;
+  max-width: 1366px;
+  margin: 3rem auto;
+  height: 100%;
+  padding: 2rem 0;
+  text-align: center;
+}
+label,
+input,
+textarea {
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  margin: 1.5rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 0;
+  width: 100%;
+  background-color: rgb(156, 185, 184);
+}
+form button {
+  width: 100px;
+  align-self: center;
+  background-color: rgba(49, 143, 96, 0.637);
+  color: rgba(2, 2, 2, 0.459);
+}
+label,
+textarea {
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+  padding: 0.75rem 2rem;
+  margin: 0 auto;
+}
+/* footer */
+footer {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  color: rgb(197, 117, 117);
+}

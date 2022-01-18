@@ -1,0 +1,121 @@
+input[type="text"]{
+    background-color: brown;
+    color: cornsilk;
+}
+input[type="email"]{
+    background-color: blue;
+    color: cornsilk;
+}
+.aa{ 
+    height: 100px  ;
+    width: 100px;
+    background-color: brown;
+       /* الطريقة الاولي للتحكم بخصائص ال border */
+    border-width: 10px;
+    border-color: chartreuse;
+    border-style: solid;
+    /*  الطريقة الثانيةللتحكم بخصائص اborder  */
+    /* border: red 20px solid ; هذة الطريقة افضل */
+    /*  */
+    /* top right  bottem laft */
+    padding: auto auto auto auto;
+    /* عكسها */
+    margin: auto;
+}
+#p{
+    text-align: right;
+    direction: rtl;
+}
+a{
+    /* لتحكم بالخط تحت نص الرابط(هون كلمة text) */
+    text-decoration: none;
+    color: rgb(228, 219, 194);
+/* للتحكم بشكل الماوس */
+    cursor:help;
+}
+    /* الي بكتبو هون ما بتنفذ الا لما يزور الموقع */
+a:visited{
+    color: yellow;
+}
+ a:hover{ 
+    /* hoverبتغير اللون لما الماوس يجي على الكلمة*/
+    color: blue; 
+     font-size: 20px; 
+ } 
+ 
+
+
+
+.div1{
+    height: 50px;
+    width: 50px;
+    background-color: burlywood;
+    overflow: auto;
+}
+ul{
+    list-style-type: decimal;
+    list-style-position: inside;
+    /* list-style-image: url("img.png")  */
+}
+ul li{
+    background-color: cyan;
+}
+.cont{
+    background-color: cyan;
+    
+}
+.cont div{
+    display: inline-block;
+    width: auto;
+}
+.claer{
+    clear:both;
+}
+.test3{
+    width: 50%;
+    height: 50px;
+    border: 3px black solid;
+}
+.test1{
+    width: 30px;
+    background-color: red;
+    position: fixed;
+    top:10px;
+}
+.test2{
+    width: 60px;
+    background-color: blue;
+
+}
+.check:checked{
+    /* هاي المسؤولة عن  الشفافية */
+   opacity: 0;
+}
+.text:focus{
+    border: 3px green solid;
+}
+p::selection{
+    background-color: grey;
+    color: honeydew;
+}
+p::first-letter{
+    color:red;
+}
+p::first-line{
+    color: greenyellow;
+}
+p::after{
+    content: "WWWWWWWWW";
+}
+p{
+    position: relative;
+}
+p::before{
+    content:"" ;
+    height: 100px;
+    width: 5px;
+    background-color: black;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
